@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="ko" dir="ltr">
+<head>
+  <meta charset="UTF-8" http-equiv="Content-Type" content="text/html;"/>
+  <meta http-equiv="content-language" content="ko"/>
+  <meta http-equiv="X-Content-Type-Options=nosniff"/>
+  <meta http-equiv="Content-Security-Policy" content="frame-src 'none'; object-src 'none'"/>
+  <meta name="theme-color" content="#0f0f0f"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=3.0, user-scalable=no"/>
+  <title>For Every Indecisiveness Peoples</title>
+  <link rel="preload" href="src/main.css" as="style" />
+  <link rel="preload" href="src/main.js" as="script" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;700&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/main.css" />
+  <link rel="stylesheet" href="src/fullpage.min.css" />
+</head>
+<body>
+  <article id="main">
+    <section class="textArea">
+      <p class="result">오늘은 왠지 <span class="food"></span> 메뉴가 땡기지 않나요?</p>
+    </section>
+    <section class="buttonArea">
+      <button class="roller">돌려돌려</button>
+    </section>
+  </article>
+  <article id="sub">
+    <section class="addArea">
+      <p class="input">혹시 내가 원하는 메뉴가 여기에 없나요?<br />
+        하단에 추가하실 메뉴를 입력하세요.</p>
+      </section>
+      <section class="enterArea">
+        <textarea id="menu" maxlength="80"></textarea>
+        <button class="add" onclick="window.add">입력</button>
+      </section>
+  </article>
+  <footer id="bottom">
+    <i class="fa-solid fa-angles-down"></i>
+  </footer>
+  <article id="preview">
+  </article>
+<script src="https://kit.fontawesome.com/fbe1fff2ec.js" crossorigin="anonymous"></script>
+<script src="src/fullpage.min.js"></script>
+<script src="src/main.js" defer></script>
+</body>
+</html>

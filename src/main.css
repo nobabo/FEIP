@@ -1,0 +1,153 @@
+:root {
+  --primary: #ff5962;
+}
+
+@font-face {
+  font-family: 'Angmuburi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116angmuburi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'IBM Plex Sans KR', 'Raleway', sans-sans-serif;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.textArea {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  margin: auto;
+  position: absolute;
+}
+
+.result {
+  color: #000;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+
+.food {
+  color: var(--primary);
+}
+
+.buttonArea {
+  top: 55%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+#bottom {
+  top: 85%;
+  left: 50%;
+  position: fixed;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.roller {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid var(--primary);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-solid {
+  font-size: 3em;
+  animation-name: bottom;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+#sub {
+  width: 100vw;
+  height: 100vh;
+}
+
+.addArea {
+  top: 200%;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  height: 35%;
+  margin: auto;
+  position: absolute;
+}
+
+.enterArea {
+  top: 155%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.input {
+  color: #000;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+
+#menu {
+  width: 400px;
+  height: 25px;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 10px 0 0 10px;
+  outline: none !important;
+  border: 2px solid var(--primary);
+  transition: width .5s, border .5s;
+}
+
+#menu:hover {
+  width: 450px;
+}
+
+#menu:active {
+  border: 2px solid var(--primary);
+}
+
+.add {
+  width: 75px;
+  height: 40px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid #000;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes bottom {
+  0% {
+    margin-top: 0px;
+  }
+
+  50% {
+    margin-top: 20px;
+  }
+
+  100% {
+    margin-top: 0px;
+  }
+}
