@@ -12,29 +12,29 @@
   <title>For Every Indecisiveness Persons</title>
   <link rel="preload" href="src/main.css" as="style" />
   <link rel="preload" href="src/main.js" as="script" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- 구글 폰트 Css -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;700&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/main.css" />
+  <link rel="stylesheet" href="src/main.css" /> <!-- 메인 Css -->
 </head>
 <body>
-  <aside id="preview">
+  <aside id="preview"> <!-- 페이지에 처음 접속했을 때 작동되는 로딩 프리뷰 페이지 -->
     <section class="feip">
       <p class="hello"><span class="red">F</span>or <span class="red">E</span>very <span class="red">I</span>ndecisiveness <span class="red">P</span>ersons</p>
       <p class="hello wow"><span class="red">세</span>상의 <span class="red">모</span>든 <span class="red">결</span>정장애를 <span class="red">위</span>해</p>
     </section>
   </aside>
-  <aside id="background"></aside>
+  <aside id="background"></aside> <!-- 배경 사진 섹션 -->
   <header id="top">
-    <i class="fa-solid fa-angles-up" onclick="window.toPrev()"></i>
+    <i class="fa-solid fa-angles-up" onclick="window.toPrev()"></i><!-- 상단 스크롤 버튼 -->
   </header>
-  <article id="main">
+  <article id="main"> <!-- 메인 랜딩페이지 섹션 -->
     <section class="gogo">
-      <p class="result">오늘은 왠지 <span class="food"></span> 정도가 땡기지 않나요?</p>
-      <button class="roller" onclick="window.chooseFood()">돌려돌려</button>
+      <p class="result">오늘은 왠지 <span class="food"></span> 정도가 땡기지 않나요?</p> <!-- 메인 문구 -->
+      <button class="roller" onclick="window.chooseFood()">돌려돌려</button> <!-- 메인 버튼 -->
     </section>
   </article>
-  <article id="nomenu">
+  <article id="nomenu"> <!-- 메뉴 추가 섹션 -->
     <section class="addMenu">
       <p class="input">혹시 내가 원하는 메뉴가 여기에 없나요?<br />
         하단에 추가하실 메뉴를 입력하세요.</p>
@@ -43,18 +43,18 @@
         <button class="add" href="#" onclick="window.add()">추가</button>
       </section>
   </article>
-  <article id="list">
-      <section class="menuArea"></section>
+  <article id="list"> <!-- 메뉴 리스트 섹션 -->
+      <section class="menuArea"></section> <!-- Circle Div가 Javascript를 통해 직접 이 섹션에 추가됨 -->
   </article>
-  <footer id="bottom">
+  <footer id="bottom"> <!-- 하단 스크롤 버튼 -->
     <i class="fa-solid fa-angles-down" onclick="window.toNext()"></i>
   </footer>
-  <aside id="footer">
+  <aside id="footer"> <!-- 카피라이트 섹션 -->
     <hr />
     <p class="intro">Copyright 2022. 윤준희, All rights reserved.</p>
     <p class="intro">Projected By Seoil University.</p>
   </aside>
-<script src="https://kit.fontawesome.com/fbe1fff2ec.js" crossorigin="anonymous"></script>
-<script src="src/main.js" defer></script>
+<script src="https://kit.fontawesome.com/fbe1fff2ec.js" crossorigin="anonymous"></script> <!-- 스크롤 버튼 폰트 Javascript -->
+<script src="src/main.js" defer></script> <!-- 메인 Javascript -->
 </body>
 </html>

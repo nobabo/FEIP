@@ -11,7 +11,6 @@
 
 html {
   scroll-behavior: smooth;
-
 }
 
 body {
@@ -245,6 +244,12 @@ body {
   font-size: 1.2em;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hello, .result, .input {
+    font-size: 1.5em;
+  }
 }
 
 @keyframes bottom {
